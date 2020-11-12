@@ -8,7 +8,7 @@ export interface UiProps {}
 export const Ui = (props: UiProps) => {
   return (
     <div>
-      <h1>Welcome to ui!</h1>
+      <h1>Welcome to todos!</h1>
     </div>
   );
 };
