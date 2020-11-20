@@ -1,4 +1,5 @@
 import { Express } from 'express';
+/* eslint-disable-next-line */
 import { Todo } from '@zapcom/data';
 
 const todos: Todo[] = [{ title: 'Do Dis' }, { title: 'Do Dat' }];

@@ -13,7 +13,7 @@ describe('App', () => {
   it('should have a greeting as the title', () => {
     const { getByText } = render(<App />);
 
-    const newLocal = 'Welcome to todos!';
+    const newLocal = 'Welcome to Todos!';
     expect(getByText(newLocal)).toBeTruthy();
   });
 });
